@@ -6,3 +6,4 @@ The following algorithms have been completed:
 | Algorithms     | C++                | Python               |
 |----------------|--------------------|----------------------|
 | Bubble Sort    | :heavy_check_mark: |  :heavy_check_mark:  |
+| Merge Sort     |                    |                      |
