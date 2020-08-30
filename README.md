@@ -10,6 +10,8 @@ The following algorithms have been completed:
 |----------------|--------------------|----------------------|-----------------|------------------|
 | Bubble Sort    | :heavy_check_mark: |  :heavy_check_mark:  | O(n<sup>2</sup>)|     O(1)         |
 | Merge Sort     | :heavy_check_mark: | :heavy_check_mark:   | O(n log n)      |     O(n)         |
+| Insertion Sort |  |   |       |            |
+| Quick Sort     |  |    |       |            |
 
 
 # Search Algorithms
