@@ -3,6 +3,6 @@ This repo is created to help me and other students learn more about different ty
 
 The following algorithms have been completed:
 
-| Algorithms     | C++   | Python   |
-|----------------|-------|----------|
-| Bubble Sort    | -[x]  |  -[x]    |
+| Algorithms     | C++                | Python               |
+|----------------|--------------------|----------------------|
+| Bubble Sort    | :heavy_check_mark: |  :heavy_check_mark:  |
