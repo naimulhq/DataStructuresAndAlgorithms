@@ -5,4 +5,4 @@ The following algorithms have been completed:
 
 | Algorithms     | C++   | Python   |
 |----------------|-------|----------|
-| Bubble Sort    | [x]   |  [x]     |
+| Bubble Sort    | -[x]  |  -[x]    |
