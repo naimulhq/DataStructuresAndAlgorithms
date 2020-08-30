@@ -18,6 +18,6 @@ The following algorithms have been completed:
 
 | Algorithms     | C++                | Python               | Time Complexity | Space Complexity |
 |----------------|--------------------|----------------------|-----------------|------------------|
-| Binary Search    |  |  :heavy_check_mark:  | O(log n) |     O(1)         |
+| Binary Search  | :heavy_check_mark: |  :heavy_check_mark:  | O(log n)        |     O(1)         |
 
 # Data Structures
