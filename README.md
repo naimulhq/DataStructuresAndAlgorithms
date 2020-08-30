@@ -3,7 +3,16 @@ This repo is created to help me and other students learn more about different ty
 
 The following algorithms have been completed:
 
-| Algorithms     | C++                | Python               |
-|----------------|--------------------|----------------------|
-| Bubble Sort    | :heavy_check_mark: |  :heavy_check_mark:  |
-| Merge Sort     |  | :heavy_check_mark:                      |
+
+# Sorting Algorithms
+
+| Algorithms     | C++                | Python               | Time Complexity | Space Complexity |
+|----------------|--------------------|----------------------|-----------------|------------------|
+| Bubble Sort    | :heavy_check_mark: |  :heavy_check_mark:  | O(n<sup>2</sup>)|     O(1)         |
+| Merge Sort     | :heavy_check_mark: | :heavy_check_mark:   | O(n log n)      |     O(n)         |
+
+
+# Search Algorithms
+
+
+# Data Structures
