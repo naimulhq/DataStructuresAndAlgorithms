@@ -21,3 +21,7 @@ The following algorithms have been completed:
 | Binary Search  | :heavy_check_mark: |  :heavy_check_mark:  | O(log n)        |     O(1)         |
 
 # Data Structures
+
+| Data Structures    | C++                | Python           |
+|----------------|--------------------|----------------------|
+| Linked List  |  |   |
