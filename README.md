@@ -11,6 +11,7 @@ The following algorithms have been completed:
 | Bubble Sort    | :heavy_check_mark: |  :heavy_check_mark:  | O(n<sup>2</sup>)|     O(1)         |
 | Merge Sort     | :heavy_check_mark: | :heavy_check_mark:   | O(n log n)      |     O(n)         |
 | Insertion Sort | :heavy_check_mark: |  :heavy_check_mark:  | O(n<sup>2</sup>)|   O(1)           |
+| Selection Sort |  |  :heavy_check_mark:  | O(n<sup>2</sup>)|   O(1)           |
 | Quick Sort     |  |    | O(n<sup>2</sup>)<sup>*</sup>      |  O(log n)          |
 
 \* Although the time complexity for Quick Sort is  O(n<sup>2</sup>), if the pivots are chosen properly, the time complexity can become O(n log n).
