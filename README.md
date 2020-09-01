@@ -16,6 +16,14 @@ The following algorithms have been completed:
 
 \* Although the time complexity for Quick Sort is  O(n<sup>2</sup>), if the pivots are chosen properly, the time complexity can become O(n log n).
 
+# Sorting Algorithms Explanations (Pros, Cons, Potential uses)
+
+1. Bubble Sort
+2. Merge Sort
+3. Insertion Sort
+4. Selection Sort
+5. Quick Sort
+
 
 # Search Algorithms
 
@@ -25,6 +33,9 @@ The following algorithms have been completed:
 
 # Data Structures
 
-| Data Structures    | C++                | Python           |
-|----------------|--------------------|----------------------|
-| Linked List  |  |   |
+| Data Structures    | C++                | Python           | Access | Search | Insertion | Deletion|
+|----------------|--------------------|----------------------|--------|--------|-----------|---------|
+| Linked List  |  |   |  |  |  |  |
+| Hash Table  |   |   |  |  |  |  |
+
+When time permits, more algorithms and data structures will be discussed.
