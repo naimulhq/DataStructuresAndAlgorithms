@@ -19,6 +19,10 @@ The following algorithms have been completed:
 # Sorting Algorithms Explanations (Pros, Cons, Potential uses)
 
 1. Bubble Sort
+    * Easy to understand and implement.
+    * Very little use of memory as sorting takes place within array or list.
+    * Extremely inefficient. O(n<sup>2</sup>) Time Complexity.
+    * Performs more comparisons and swaps compared to other sorting algorithms.
 2. Merge Sort
 3. Insertion Sort
 4. Selection Sort
