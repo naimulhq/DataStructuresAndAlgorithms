@@ -24,6 +24,9 @@ The following algorithms have been completed:
     * Extremely inefficient. O(n<sup>2</sup>) Time Complexity.
     * Performs more comparisons and swaps compared to other sorting algorithms.
 2. Merge Sort
+      * Complex compared to other algorithms and utilizes recursion
+      * Extremely efficient in terms of time complexity
+      * However, O(n) space complexity due to creating a new array that is sorted with length n which means additional memory is required.
 3. Insertion Sort
 4. Selection Sort
 5. Quick Sort
@@ -41,5 +44,6 @@ The following algorithms have been completed:
 |----------------|--------------------|----------------------|--------|--------|-----------|---------|
 | Linked List  |  |   |  |  |  |  |
 | Hash Table  |   |   |  |  |  |  |
+| Binary Tree  |   |   |  |  |  |  |
 
 When time permits, more algorithms and data structures will be discussed.
