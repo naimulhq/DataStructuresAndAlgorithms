@@ -51,17 +51,24 @@ class LinkedList:
     def deleteSpecific(self,val):
         current = self.root
         deleted = False
-        while current is not None:
-            if current.value == val:
-                pass
+        while (current is not None) and (deleted is False):
+            if (current is self.root) and (current.value == val): # Case when first item in Linked List Deleted
+                current = self.root
+                self.root = current.next
+                current = None
+                deleted = True
+            elif(current.next is None) and (current.value == val): # Case when item is end of Linked List Deleted
+                current = None
+                deleted = True
+            elif(current.next is not None) and (current.next.value == val): # Case when item between two elements
+                current.next = current.next.next
+                deleted = True
             else:
                 current = current.next
         if(deleted == False):
             print(str(val) + " is not in linked list.")
-
-
-    
-
+        else:
+            print(str(val) + " was deleted from linked list.")
 
 # Main Program
 myLinkedList = LinkedList()
@@ -78,6 +85,23 @@ myLinkedList.printList()
 myLinkedList.search(9)
 myLinkedList.search(5)
 # Delete specific values
-myLinkedList.deleteSpecific(11)
+myLinkedList.deleteSpecific(4)
 # Print Linked List
 myLinkedList.printList()
+myLinkedList.deleteSpecific(5)
+# Print Linked List
+myLinkedList.printList()
+myLinkedList.deleteSpecific(8)
+# Print Linked List
+myLinkedList.printList()
+myLinkedList.deleteSpecific(3)
+# Print Linked List
+myLinkedList.printList()
+for i in range(len(myList)):
+    myLinkedList.addNode(myList[i])
+# Print List
+myLinkedList.printList()
+# Print Linked List
+myLinkedList.printList()
+myLinkedList.deleteSpecific(11)
+
