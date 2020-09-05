@@ -42,8 +42,11 @@ The following algorithms have been completed:
 
 | Data Structures    | C++                | Python           | Access | Search | Insertion | Deletion|
 |----------------|--------------------|----------------------|--------|--------|-----------|---------|
-| Linked List  |  |   |  |  |  |  |
+| Linked List  |  | :heavy_check_mark:  | O(n) | O(n) | O(1) | O(1) |
 | Hash Table  |   |   |  |  |  |  |
 | Binary Tree  |   |   |  |  |  |  |
+
+1. Linked List
+      * Although Insertion and Deletion are O(1), if desired to put a node at the end of the list for insertion or delete a specific item in the list, this would require O(n) because traversal of the list would be necessary.
 
 When time permits, more algorithms and data structures will be discussed.
