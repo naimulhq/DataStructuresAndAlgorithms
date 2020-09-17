@@ -42,7 +42,7 @@ The following algorithms have been completed:
 
 | Data Structures    | C++                | Python           | Access | Search | Insertion | Deletion|
 |----------------|--------------------|----------------------|--------|--------|-----------|---------|
-| Linked List  |  | :heavy_check_mark:  | O(n) | O(n) | O(1) | O(1) |
+| Linked List  | :heavy_check_mark: | :heavy_check_mark:  | O(n) | O(n) | O(1) | O(1) |
 | Hash Table  |   |   |  |  |  |  |
 | Binary Tree  |   |   |  |  |  |  |
 
