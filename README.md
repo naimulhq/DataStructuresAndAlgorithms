@@ -43,10 +43,13 @@ The following algorithms have been completed:
 | Data Structures    | C++                | Python           | Access | Search | Insertion | Deletion|
 |----------------|--------------------|----------------------|--------|--------|-----------|---------|
 | Linked List  | :heavy_check_mark: | :heavy_check_mark:  | O(n) | O(n) | O(1) | O(1) |
-| Hash Table  |   |   |  |  |  |  |
+| Hash Table  |   |   | N/A | O(n) | O(n) | O(n) |
 | Binary Tree  |   |   |  |  |  |  |
 
 1. Linked List
       * Although Insertion and Deletion are O(1), if desired to put a node at the end of the list for insertion or delete a specific item in the list, this would require O(n) because traversal of the list would be necessary.
+2. Hash Table
+      * Worst cases for Search, Insertion, and Deletion is O(n). However, this is only true if we have a bad hash function. Assuming that we have a good hash function and collisions occur less often, Search, Insertion, and Deletion can be considered O(1).
+      * Hash Tables are one of the most useful data structures and most problems asked in coding interviews can be solved using a hash table.
 
 When time permits, more algorithms and data structures will be discussed.
